@@ -41,15 +41,30 @@ height: 40px;
 background-color: rgb(36, 143, 250);
 color: white;
 }
+.series{
+    margin-left: 115px;
+    color: gray;
+}
 .lista{
     display: flex;
     justify-content: space-evenly;
     font-size: 25px;
 }
+.coche{
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray
+}
+.coche:hover{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    border-bottom: 3px solid blue;
+}
 .car{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
+    margin-bottom: 50px;
 }
 .boxes{
     display: flex;
@@ -58,18 +73,23 @@ color: white;
 }
 .box{
     width: 400px;
-    height: 450px;
-    background-color: blue;
-    border: 50px;
-    border-color: black;
+    height: 410px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ocasion{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
 }
 .sec{
     margin-top: 50px;
 }
 .caja{
-width: 700px;
-height: 600px;
-background-color: chartreuse;
+width: 570px;
+height: 480px;
+border: 2px solid black;
 }
 .cajas{
     display: flex;
@@ -120,4 +140,11 @@ background-color: rgb(229, 227, 227);
     text-decoration: none;
     color: blue;
 
+}
+
+.link{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
